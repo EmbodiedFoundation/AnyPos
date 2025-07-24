@@ -1,6 +1,6 @@
 # Anypos: Automated Task-Agnostic Actions for Bimanual Manipulation
 
-### 📝[Paper](https://www.arxiv.org/pdf/2507.12768) | 🌍[Project Page](https://embodiedfoundation.github.io/vidar_anypos)
+### 📝[Paper](https://www.arxiv.org/pdf/2507.12768) | 🌍[Project Page](https://embodiedfoundation.github.io/vidar_anypos) | 🤗[Huggingface](https://huggingface.co/embodiedfoundation/AnyPos)
 
 ![](./assets/header.png)
 
@@ -19,7 +19,7 @@ pip install -e .
 
 ## Dataset
 
-TODO
+The task-agnostic action data sampled by ATARA can be downloaded from [HERE](https://huggingface.co/embodiedfoundation/ATARA)🤗, which consists of hundreds of trajectories. You should place the whole `atara` file in any directory and refer it in your training/inference scripts.
 
 ## Training IDM
 To train IDM without arm-decoupling, run:
