@@ -21,6 +21,10 @@ pip install -e .
 
 The task-agnostic action data sampled by ATARA can be downloaded from [HERE](https://huggingface.co/embodiedfoundation/ATARA)🤗, which consists of hundreds of trajectories. You should place the whole `atara` file in any directory and refer it in your training/inference scripts.
 
+## Model
+
+A trained model can be found in [HERE](https://huggingface.co/embodiedfoundation/AnyPos)🤗, whose type is `direction-aware_with_split`. You can test it on the testset given by ATARA dataset.
+
 ## Training IDM
 To train IDM without arm-decoupling, run:
 ```bash
