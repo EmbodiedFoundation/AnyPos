@@ -1,0 +1,47 @@
+from setuptools import find_packages
+from distutils.core import setup
+
+install_requires = [
+    "absl-py==2.0.0",
+    "accelerate==0.30.0",
+    "addict==2.4.0",
+    "aiofiles==23.2.1",
+    "aiosignal==1.3.1",
+    "basicsr==1.4.2",
+    "bitsandbytes==0.41.0",
+    "cachetools==5.3.2",
+    "contourpy==1.2.0",
+    "einops==0.8.0",
+    "ftfy==6.2.3",
+    "huggingface-hub==0.29.1",
+    "h5py==3.13.0",
+    "imageio==2.34.2",
+    "jinja2==3.1.4",
+    "matplotlib==3.9.1",
+    "numpy==1.26.4",
+    "opencv-python-headless==4.10.0.84",
+    "pandas==2.1.4",
+    "pillow==10.1.0",
+    "protobuf==4.25.1",
+    "pyyaml==6.0.1",
+    "scipy==1.11.4",
+    "sentencepiece==0.1.99",
+    "timm==0.6.13",
+    "torch==2.3.0",
+    "torchvision==0.18.0",
+    "tqdm==4.66.1",
+    "transformers==4.49.0",
+    "wandb==0.16.1",
+    "xformers==0.0.26.post1",
+]
+
+setup(
+    name='AnyPos',
+    version='1.0.0',
+    author=' ',
+    license="Apache 2.0 License",
+    packages=find_packages(),
+    author_email=' ',
+    description=' ',
+    install_requires=install_requires,
+)
