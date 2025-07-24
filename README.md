@@ -64,4 +64,4 @@ If you find our work useful for your project, please consider citing the followi
 Thank you!
 
 ## License
-All the code, model weights, and data are licensed under [MIT license](./LICENSE).
+All the code, model weights, and data are licensed under [Mozilla Public License Version 2.0](./LICENSE).
