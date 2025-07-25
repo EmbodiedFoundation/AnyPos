@@ -6,7 +6,10 @@
 
 AnyPos is a robot-specific image-to-action model **trained entirely on task-agnostic trajectories sampled by ATARA (Automated Task-AgnosticRandom Actions)**, a novel data collection framework that **automatically generates large-scale task-agnostic actions** for bimanual manipulation efficiently. It integrates two key techniques to enhance performance: **Arm-Decoupled Estimation** and **Direction-Aware Decoder (DAD)**. Together, ATARA and AnyPos constitute **a fully task-agnostic framework for training IDMs without goal supervision**. By combining scalable unsupervised data collection with physically informed learning architectures, our approach demonstrates that task-agnostic action data can serve as a practical and powerful foundation for generalizable manipulation.
 
+![](./assets/anypos_methods.png)
+
 We additionally integrate a video-conditioned action validation module to verify the feasibility of learned policies across diverse manipulation tasks, and we demonstrate that the AnyPos-ATARA pipeline yields a **51% improvement** in test accuracy and achieves **30-40% higher success rates** in downstream tasks such as lifting, pick-and-place, and clicking, using replay-based video validation.
+
 
 ## Installation Instructions
 ```bash
